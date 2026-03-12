@@ -3,10 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import {
-  Card,
-  CardContent,
-} from "@/components/ui/card";
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
@@ -23,7 +19,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
-import { MoreHorizontal, Trash2, Copy, ExternalLink, Presentation } from "lucide-react";
+import { MoreHorizontal, Trash2, Copy, ExternalLink, Layers } from "lucide-react";
 import { toast } from "sonner";
 
 interface DeckCardProps {
@@ -69,36 +65,37 @@ export function DeckCard({ deck, onDelete }: DeckCardProps) {
 
   return (
     <>
-      <Card
-        className="group cursor-pointer transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 overflow-hidden"
+      <div
+        className="group cursor-pointer rounded-2xl border border-border/60 bg-card transition-all duration-200 hover:shadow-lg hover:shadow-black/[0.04] hover:-translate-y-0.5 overflow-hidden"
         onClick={handleOpen}
       >
-        <div className="aspect-video bg-gradient-to-br from-slate-100 to-slate-50 relative flex items-center justify-center border-b">
+        <div className="aspect-video bg-gradient-to-br from-accent to-accent/30 relative flex items-center justify-center">
           {deck.thumbnail_url ? (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={deck.thumbnail_url}
               alt={deck.title}
               className="w-full h-full object-cover"
             />
           ) : (
-            <Presentation className="h-12 w-12 text-slate-300" />
+            <Layers className="h-8 w-8 text-muted-foreground/30" />
           )}
-          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/[0.03] transition-colors" />
           <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
             <DropdownMenu>
               <DropdownMenuTrigger
-                className="inline-flex items-center justify-center h-8 w-8 rounded-md bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80"
+                className="inline-flex items-center justify-center h-7 w-7 rounded-lg bg-background/90 backdrop-blur-sm text-foreground shadow-sm hover:bg-background"
                 onClick={(e) => e.stopPropagation()}
               >
-                <MoreHorizontal className="h-4 w-4" />
+                <MoreHorizontal className="h-3.5 w-3.5" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
+              <DropdownMenuContent align="end" className="min-w-[140px]">
                 <DropdownMenuItem onClick={(e) => { e.stopPropagation(); handleOpen(); }}>
-                  <ExternalLink className="mr-2 h-4 w-4" />
+                  <ExternalLink className="mr-2 h-3.5 w-3.5" />
                   Open
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={(e) => { e.stopPropagation(); handleDuplicate(); }}>
-                  <Copy className="mr-2 h-4 w-4" />
+                  <Copy className="mr-2 h-3.5 w-3.5" />
                   Duplicate
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
@@ -106,33 +103,33 @@ export function DeckCard({ deck, onDelete }: DeckCardProps) {
                   className="text-destructive focus:text-destructive"
                   onClick={(e) => { e.stopPropagation(); setShowDelete(true); }}
                 >
-                  <Trash2 className="mr-2 h-4 w-4" />
+                  <Trash2 className="mr-2 h-3.5 w-3.5" />
                   Delete
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
         </div>
-        <CardContent className="p-4">
-          <h3 className="font-semibold text-sm truncate">{deck.title}</h3>
-          <p className="text-xs text-muted-foreground mt-1">
+        <div className="px-4 py-3">
+          <h3 className="font-medium text-[13px] tracking-tight truncate">{deck.title}</h3>
+          <p className="text-[11px] text-muted-foreground mt-0.5 tabular-nums">
             {slideCount} slide{slideCount !== 1 ? "s" : ""} &middot; {updatedDate}
           </p>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
 
       <AlertDialog open={showDelete} onOpenChange={setShowDelete}>
-        <AlertDialogContent>
+        <AlertDialogContent className="rounded-2xl">
           <AlertDialogHeader>
             <AlertDialogTitle>Delete deck?</AlertDialogTitle>
             <AlertDialogDescription>
-              This will permanently delete &quot;{deck.title}&quot; and all its slides. This action cannot be undone.
+              This will permanently delete &ldquo;{deck.title}&rdquo; and all its slides.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
-            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogCancel className="rounded-lg">Cancel</AlertDialogCancel>
             <AlertDialogAction
-              className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+              className="rounded-lg bg-destructive text-destructive-foreground hover:bg-destructive/90"
               onClick={() => onDelete(deck.id)}
             >
               Delete

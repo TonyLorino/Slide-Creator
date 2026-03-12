@@ -192,23 +192,23 @@ export function SlidePreviewCard({
 
   return (
     <div
-      className={`group relative cursor-pointer rounded-lg transition-all ${
+      className={`group relative cursor-pointer rounded-xl transition-all duration-200 ${
         isActive
-          ? "ring-2 ring-primary ring-offset-2"
-          : "ring-1 ring-border hover:ring-2 hover:ring-primary/50"
+          ? "ring-2 ring-foreground ring-offset-2 ring-offset-background"
+          : "ring-1 ring-border/80 hover:ring-2 hover:ring-foreground/20 hover:shadow-lg hover:shadow-black/[0.04]"
       }`}
       onClick={onClick}
       onMouseEnter={() => setHovering(true)}
       onMouseLeave={() => setHovering(false)}
     >
-      <div className="absolute -top-2 left-2 z-10 flex items-center gap-1">
-        <span className="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground shadow-sm">
+      <div className="absolute -top-2.5 left-3 z-10">
+        <span className="inline-flex h-5 items-center rounded-md bg-background px-1.5 text-[10px] font-medium tabular-nums text-muted-foreground shadow-sm ring-1 ring-border/60">
           {index + 1}
         </span>
       </div>
 
       <div
-        className="relative overflow-hidden rounded-lg"
+        className="relative overflow-hidden rounded-xl"
         style={{
           width: SLIDE_RENDER_W,
           height: SLIDE_RENDER_H,
@@ -223,7 +223,7 @@ export function SlidePreviewCard({
           <div className="flex size-full flex-col items-center justify-center p-4">
             {slide.title && (
               <p
-                className="mb-1 text-center font-semibold"
+                className="mb-1 text-center font-medium"
                 style={{ fontSize: 12, color: textColor }}
               >
                 {slide.title}
@@ -242,10 +242,11 @@ export function SlidePreviewCard({
       </div>
 
       {hovering && (
-        <div className="absolute right-1 top-1 z-10 flex gap-0.5">
+        <div className="absolute right-1.5 top-1.5 z-10 flex gap-0.5">
           <Button
             variant="secondary"
             size="icon-xs"
+            className="rounded-lg bg-background/90 backdrop-blur-sm shadow-sm hover:bg-background"
             onClick={(e) => {
               e.stopPropagation();
               onDuplicate();
@@ -257,6 +258,7 @@ export function SlidePreviewCard({
           <Button
             variant="destructive"
             size="icon-xs"
+            className="rounded-lg"
             onClick={(e) => {
               e.stopPropagation();
               onDelete();
@@ -268,8 +270,8 @@ export function SlidePreviewCard({
         </div>
       )}
 
-      <div className="mt-1 px-1">
-        <p className="truncate text-[10px] text-muted-foreground">
+      <div className="mt-1.5 px-1">
+        <p className="truncate text-[10px] text-muted-foreground/70">
           {slide.layoutKey}
         </p>
       </div>

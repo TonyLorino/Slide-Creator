@@ -88,24 +88,26 @@ export function SlideDetailPanel() {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-      <div className="flex h-[90vh] w-[90vw] max-w-6xl flex-col overflow-hidden rounded-2xl bg-background shadow-2xl">
-        <div className="flex items-center justify-between border-b border-border px-6 py-3">
-          <div className="flex items-center gap-3">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+      <div className="flex h-[90vh] w-[90vw] max-w-6xl flex-col overflow-hidden rounded-2xl border border-border/40 bg-background shadow-2xl">
+        <div className="flex items-center justify-between border-b border-border/60 px-6 py-3">
+          <div className="flex items-center gap-2">
             <Button
               variant="ghost"
               size="icon-sm"
+              className="rounded-lg"
               onClick={() => goToSlide(-1)}
               disabled={slideIndex === 0}
             >
               <ChevronLeft className="size-4" />
             </Button>
-            <span className="text-sm font-medium">
+            <span className="text-[13px] font-medium tabular-nums">
               Slide {slideIndex + 1} of {slides.length}
             </span>
             <Button
               variant="ghost"
               size="icon-sm"
+              className="rounded-lg"
               onClick={() => goToSlide(1)}
               disabled={slideIndex === slides.length - 1}
             >
@@ -113,18 +115,20 @@ export function SlideDetailPanel() {
             </Button>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5">
             <Button
               variant="outline"
               size="sm"
+              className="h-7 gap-1 rounded-lg border-border/60 text-[12px] font-normal"
               onClick={() => setLayoutPickerOpen(true)}
             >
-              <LayoutGrid className="size-3.5" />
+              <LayoutGrid className="size-3" />
               Change Layout
             </Button>
             <Button
               variant="ghost"
-              size="icon"
+              size="icon-sm"
+              className="rounded-lg"
               onClick={() => setExpandedSlide(null)}
             >
               <X className="size-4" />
@@ -133,10 +137,9 @@ export function SlideDetailPanel() {
         </div>
 
         <div className="flex flex-1 overflow-hidden">
-          {/* Preview */}
-          <div className="flex flex-1 items-center justify-center bg-muted/30 p-8">
+          <div className="flex flex-1 items-center justify-center bg-accent/30 p-8">
             <div
-              className="relative overflow-hidden rounded-lg shadow-lg"
+              className="relative overflow-hidden rounded-xl shadow-lg"
               style={{
                 width: 640,
                 height: 360,
@@ -240,21 +243,21 @@ export function SlideDetailPanel() {
             </div>
           </div>
 
-          {/* Edit panel */}
-          <div className="w-[340px] border-l border-border">
+          <div className="w-[340px] border-l border-border/60">
             <ScrollArea className="h-full">
               <div className="flex flex-col gap-5 p-5">
-                <div className="rounded-lg bg-muted/50 px-3 py-2">
-                  <p className="text-xs font-medium text-muted-foreground">
+                <div className="rounded-xl bg-accent/60 px-3.5 py-2.5">
+                  <p className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
                     Layout
                   </p>
-                  <p className="text-sm font-semibold">{slide.layoutKey}</p>
+                  <p className="text-[13px] font-medium tracking-tight mt-0.5">{slide.layoutKey}</p>
                 </div>
 
                 {(hasTitlePh ?? true) && (
                   <div className="space-y-1.5">
-                    <Label className="text-xs">Title</Label>
+                    <Label className="text-[11px] font-medium text-muted-foreground">Title</Label>
                     <Input
+                      className="h-9 rounded-lg border-border/60 text-[13px]"
                       value={slide.title ?? ""}
                       onChange={(e) =>
                         updateSlide(slide.id, {
@@ -268,8 +271,9 @@ export function SlideDetailPanel() {
 
                 {(hasSubtitlePh ?? false) && (
                   <div className="space-y-1.5">
-                    <Label className="text-xs">Subtitle</Label>
+                    <Label className="text-[11px] font-medium text-muted-foreground">Subtitle</Label>
                     <Input
+                      className="h-9 rounded-lg border-border/60 text-[13px]"
                       value={slide.subtitle ?? ""}
                       onChange={(e) =>
                         updateSlide(slide.id, {
@@ -283,8 +287,9 @@ export function SlideDetailPanel() {
 
                 {(hasBodyPh ?? true) && (
                   <div className="space-y-1.5">
-                    <Label className="text-xs">Body</Label>
+                    <Label className="text-[11px] font-medium text-muted-foreground">Body</Label>
                     <Textarea
+                      className="rounded-lg border-border/60 text-[13px]"
                       value={slide.body ?? ""}
                       onChange={(e) =>
                         updateSlide(slide.id, {
@@ -298,8 +303,9 @@ export function SlideDetailPanel() {
                 )}
 
                 <div className="space-y-1.5">
-                  <Label className="text-xs">Presenter Info</Label>
+                  <Label className="text-[11px] font-medium text-muted-foreground">Presenter Info</Label>
                   <Input
+                    className="h-9 rounded-lg border-border/60 text-[13px]"
                     value={slide.presenterInfo ?? ""}
                     onChange={(e) =>
                       updateSlide(slide.id, {
@@ -312,11 +318,12 @@ export function SlideDetailPanel() {
 
                 {(hasPicturePh ?? false) && (
                   <div className="space-y-1.5">
-                    <Label className="text-xs">
+                    <Label className="text-[11px] font-medium text-muted-foreground">
                       <ImageIcon className="mr-1 inline size-3" />
                       Image URL
                     </Label>
                     <Input
+                      className="h-9 rounded-lg border-border/60 text-[13px]"
                       value={slide.imageUrl ?? ""}
                       onChange={(e) =>
                         updateSlide(slide.id, {
@@ -325,9 +332,10 @@ export function SlideDetailPanel() {
                       }
                       placeholder="https://..."
                     />
-                    <div className="space-y-1.5">
-                      <Label className="text-xs">Image Prompt (for AI generation)</Label>
+                    <div className="space-y-1.5 mt-2">
+                      <Label className="text-[11px] font-medium text-muted-foreground">Image Prompt</Label>
                       <Input
+                        className="h-9 rounded-lg border-border/60 text-[13px]"
                         value={slide.imagePrompt ?? ""}
                         onChange={(e) =>
                           updateSlide(slide.id, {
@@ -341,11 +349,12 @@ export function SlideDetailPanel() {
                 )}
 
                 <div className="space-y-1.5">
-                  <Label className="text-xs">
+                  <Label className="text-[11px] font-medium text-muted-foreground">
                     <StickyNote className="mr-1 inline size-3" />
                     Speaker Notes
                   </Label>
                   <Textarea
+                    className="rounded-lg border-border/60 text-[13px]"
                     value={slide.notes ?? ""}
                     onChange={(e) =>
                       updateSlide(slide.id, {

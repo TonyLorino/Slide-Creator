@@ -6,13 +6,8 @@ import {
   CATEGORY_LABELS,
 } from "@/lib/templates/layouts";
 import type { LayoutCategory, LayoutDef } from "@/lib/templates/types";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { X } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const DARK_BACKGROUNDS = new Set(["#000000", "#1F00FF", "#01454F"]);
 
@@ -57,6 +52,8 @@ export function LayoutPicker({
   const slides = useEditorStore((s) => s.slides);
   const activeSlideId = useEditorStore((s) => s.activeSlideId);
 
+  if (!open) return null;
+
   function handleSelect(layoutName: string) {
     if (mode === "add") {
       const activeIdx = slides.findIndex((s) => s.id === activeSlideId);
@@ -68,20 +65,32 @@ export function LayoutPicker({
   }
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl max-h-[85vh] flex flex-col p-0">
-        <DialogHeader className="px-6 pt-6 pb-2">
-          <DialogTitle>
-            {mode === "add" ? "Add New Slide" : "Change Layout"}
-          </DialogTitle>
-          <p className="text-sm text-muted-foreground">
-            {mode === "add"
-              ? "Choose a layout for your new slide"
-              : "Select a new layout for this slide"}
-          </p>
-        </DialogHeader>
+    <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/50 backdrop-blur-sm">
+      <div
+        className="flex max-h-[85vh] w-full max-w-3xl flex-col rounded-2xl border border-border/40 bg-background shadow-2xl"
+      >
+        <div className="flex shrink-0 items-center justify-between px-6 pt-5 pb-3">
+          <div>
+            <h2 className="text-base font-medium">
+              {mode === "add" ? "Add New Slide" : "Change Layout"}
+            </h2>
+            <p className="mt-0.5 text-sm text-muted-foreground">
+              {mode === "add"
+                ? "Choose a layout for your new slide"
+                : "Select a new layout for this slide"}
+            </p>
+          </div>
+          <Button
+            variant="ghost"
+            size="icon-sm"
+            className="rounded-lg"
+            onClick={() => onOpenChange(false)}
+          >
+            <X className="size-4" />
+          </Button>
+        </div>
 
-        <ScrollArea className="flex-1 px-6 pb-6">
+        <div className="overflow-y-auto px-6 pb-6">
           <div className="space-y-6">
             {CATEGORY_ORDER.map((category) => {
               const layouts = LAYOUTS_BY_CATEGORY[category];
@@ -102,7 +111,7 @@ export function LayoutPicker({
                         <button
                           key={layout.index}
                           onClick={() => handleSelect(layout.name)}
-                          className="group text-left rounded-lg border border-border hover:border-primary/50 hover:shadow-md transition-all duration-150 overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                          className="group text-left rounded-xl border border-border/60 hover:border-foreground/20 hover:shadow-md transition-all duration-150 overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                         >
                           <div
                             className="w-full relative"
@@ -138,8 +147,8 @@ export function LayoutPicker({
               );
             })}
           </div>
-        </ScrollArea>
-      </DialogContent>
-    </Dialog>
+        </div>
+      </div>
+    </div>
   );
 }

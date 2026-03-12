@@ -4,7 +4,7 @@ import * as React from "react";
 import { useEditorStore } from "@/lib/store/editor-store";
 import { SlidePreviewCard } from "./SlidePreviewCard";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Presentation } from "lucide-react";
+import { Layers } from "lucide-react";
 
 export function SlidePreviewGrid() {
   const {
@@ -19,10 +19,12 @@ export function SlidePreviewGrid() {
   if (slides.length === 0) {
     return (
       <div className="flex flex-1 flex-col items-center justify-center gap-4 text-muted-foreground">
-        <Presentation className="size-16 opacity-20" />
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-accent">
+          <Layers className="size-6 opacity-40" />
+        </div>
         <div className="text-center">
-          <p className="text-sm font-medium text-foreground">No slides yet</p>
-          <p className="mt-1 text-xs">
+          <p className="text-sm font-medium tracking-tight text-foreground">No slides yet</p>
+          <p className="mt-1 text-xs text-muted-foreground">
             Use the chat to describe the presentation you want to create.
           </p>
         </div>
@@ -31,8 +33,8 @@ export function SlidePreviewGrid() {
   }
 
   return (
-    <ScrollArea className="flex-1 overflow-auto">
-      <div className="flex flex-wrap content-start gap-6 p-6">
+    <ScrollArea className="flex-1 overflow-auto bg-accent/20">
+      <div className="flex flex-wrap content-start gap-6 p-8">
         {slides
           .sort((a, b) => a.orderIndex - b.orderIndex)
           .map((slide, i) => (

@@ -7,8 +7,7 @@ import { createClient } from "@/lib/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Presentation } from "lucide-react";
+import { Layers } from "lucide-react";
 
 export default function SignupPage() {
   const [email, setEmail] = useState("");
@@ -55,73 +54,76 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-4">
-      <Card className="w-full max-w-md">
-        <CardHeader className="text-center space-y-2">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-primary">
-            <Presentation className="h-6 w-6 text-primary-foreground" />
+    <div className="flex min-h-screen items-center justify-center bg-background p-4">
+      <div className="w-full max-w-sm">
+        <div className="mb-8 text-center">
+          <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-foreground">
+            <Layers className="h-5 w-5 text-background" />
           </div>
-          <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
-          <CardDescription>Get started with Slide Creator</CardDescription>
-        </CardHeader>
-        <CardContent>
-          {success ? (
-            <div className="text-center space-y-2">
-              <p className="text-sm text-green-600 font-medium">Account created successfully!</p>
-              <p className="text-sm text-muted-foreground">Redirecting...</p>
+          <h1 className="text-xl font-semibold tracking-tight">Create an account</h1>
+          <p className="mt-1 text-sm text-muted-foreground">Get started with Slide Creator</p>
+        </div>
+
+        {success ? (
+          <div className="text-center space-y-2 py-4">
+            <p className="text-sm font-medium text-emerald-600">Account created successfully!</p>
+            <p className="text-[13px] text-muted-foreground">Redirecting...</p>
+          </div>
+        ) : (
+          <form onSubmit={handleSignup} className="space-y-4">
+            <div className="space-y-1.5">
+              <Label htmlFor="email" className="text-[12px] font-medium text-muted-foreground">Email</Label>
+              <Input
+                id="email"
+                type="email"
+                placeholder="you@company.com"
+                className="h-10 rounded-xl border-border/60 text-[13px]"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                autoFocus
+              />
             </div>
-          ) : (
-            <form onSubmit={handleSignup} className="space-y-4">
-              <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="you@company.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  autoFocus
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="password">Password</Label>
-                <Input
-                  id="password"
-                  type="password"
-                  placeholder="At least 6 characters"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="confirm">Confirm Password</Label>
-                <Input
-                  id="confirm"
-                  type="password"
-                  placeholder="Confirm your password"
-                  value={confirmPassword}
-                  onChange={(e) => setConfirmPassword(e.target.value)}
-                  required
-                />
-              </div>
-              {error && (
-                <p className="text-sm text-destructive">{error}</p>
-              )}
-              <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Creating account..." : "Create account"}
-              </Button>
-            </form>
-          )}
-          <p className="mt-4 text-center text-sm text-muted-foreground">
-            Already have an account?{" "}
-            <Link href="/login" className="text-primary underline-offset-4 hover:underline">
-              Sign in
-            </Link>
-          </p>
-        </CardContent>
-      </Card>
+            <div className="space-y-1.5">
+              <Label htmlFor="password" className="text-[12px] font-medium text-muted-foreground">Password</Label>
+              <Input
+                id="password"
+                type="password"
+                placeholder="At least 6 characters"
+                className="h-10 rounded-xl border-border/60 text-[13px]"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+            <div className="space-y-1.5">
+              <Label htmlFor="confirm" className="text-[12px] font-medium text-muted-foreground">Confirm Password</Label>
+              <Input
+                id="confirm"
+                type="password"
+                placeholder="Confirm your password"
+                className="h-10 rounded-xl border-border/60 text-[13px]"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                required
+              />
+            </div>
+            {error && (
+              <p className="text-[13px] text-destructive">{error}</p>
+            )}
+            <Button type="submit" className="h-10 w-full rounded-xl text-[13px] font-medium" disabled={loading}>
+              {loading ? "Creating account..." : "Create account"}
+            </Button>
+          </form>
+        )}
+
+        <p className="mt-6 text-center text-[12px] text-muted-foreground">
+          Already have an account?{" "}
+          <Link href="/login" className="font-medium text-foreground hover:underline underline-offset-4">
+            Sign in
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }

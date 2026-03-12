@@ -20,10 +20,11 @@ export default function DeckEditorPage() {
   const setDeck = useEditorStore((s) => s.setDeck);
   const setSlides = useEditorStore((s) => s.setSlides);
   const setActiveSlide = useEditorStore((s) => s.setActiveSlide);
+  const setMessages = useEditorStore((s) => s.setMessages);
   const resetEditor = useEditorStore((s) => s.resetEditor);
   const expandedSlideId = useEditorStore((s) => s.expandedSlideId);
 
-  useAutoSave();
+  const { flushSave } = useAutoSave();
 
   const loadDeck = useCallback(async () => {
     resetEditor();
@@ -69,12 +70,19 @@ export default function DeckEditorPage() {
       if (slides.length > 0) {
         setActiveSlide(slides[0].id);
       }
+
+      const savedMessages = Array.isArray(data.chat_messages)
+        ? data.chat_messages
+        : [];
+      if (savedMessages.length > 0) {
+        setMessages(savedMessages);
+      }
     } catch {
       setError("Failed to load deck");
     } finally {
       setLoading(false);
     }
-  }, [deckId, setDeck, setSlides, setActiveSlide, resetEditor]);
+  }, [deckId, setDeck, setSlides, setActiveSlide, setMessages, resetEditor]);
 
   useEffect(() => {
     loadDeck();
@@ -117,7 +125,7 @@ export default function DeckEditorPage() {
 
   return (
     <div className="flex h-screen flex-col overflow-hidden">
-      <EditorHeader />
+      <EditorHeader onFlushSave={flushSave} />
       <div className="flex flex-1 overflow-hidden">
         <ChatPanel />
         <SlidePreviewGrid />

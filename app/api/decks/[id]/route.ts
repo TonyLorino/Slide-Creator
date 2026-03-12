@@ -52,28 +52,22 @@ export async function PATCH(
   const body = await request.json();
 
   if (body.slides) {
-    for (const slide of body.slides) {
-      const { id: slideId, ...slideData } = slide;
-      if (slideId && !slideId.startsWith("temp-")) {
-        await supabase
-          .from("slides")
-          .update({
-            order_index: slideData.orderIndex ?? slideData.order_index,
-            layout_key: slideData.layoutKey ?? slideData.layout_key,
-            content: slideData.content,
-            notes: slideData.notes,
-          })
-          .eq("id", slideId)
-          .eq("deck_id", id);
-      } else {
-        await supabase.from("slides").insert({
-          id: slideId && !slideId.startsWith("temp-") ? slideId : undefined,
-          deck_id: id,
-          order_index: slideData.orderIndex ?? slideData.order_index ?? 0,
-          layout_key: slideData.layoutKey ?? slideData.layout_key ?? "Slide Content",
-          content: slideData.content ?? { elements: [] },
-          notes: slideData.notes,
-        });
+    const rows = body.slides.map((slide: Record<string, unknown>) => ({
+      id: slide.id as string,
+      deck_id: id,
+      order_index: (slide.orderIndex ?? slide.order_index ?? 0) as number,
+      layout_key: (slide.layoutKey ?? slide.layout_key ?? "Slide Content") as string,
+      content: (slide.content ?? {}) as Record<string, unknown>,
+      notes: (slide.notes ?? null) as string | null,
+    }));
+
+    if (rows.length > 0) {
+      const { error: upsertError } = await supabase
+        .from("slides")
+        .upsert(rows, { onConflict: "id" });
+
+      if (upsertError) {
+        return NextResponse.json({ error: upsertError.message }, { status: 500 });
       }
     }
   }
@@ -82,6 +76,7 @@ export async function PATCH(
   if (body.title !== undefined) deckUpdates.title = body.title;
   if (body.description !== undefined) deckUpdates.description = body.description;
   if (body.thumbnail_url !== undefined) deckUpdates.thumbnail_url = body.thumbnail_url;
+  if (body.chat_messages !== undefined) deckUpdates.chat_messages = body.chat_messages;
 
   if (Object.keys(deckUpdates).length > 0) {
     const { error } = await supabase

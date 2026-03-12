@@ -165,6 +165,7 @@ export const useEditorStore = create<EditorState>((set, get) => ({
   addMessage: (message) => {
     set((state) => ({
       messages: [...state.messages, message],
+      isDirty: true,
     }));
   },
 
