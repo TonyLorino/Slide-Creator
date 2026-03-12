@@ -1,0 +1,3747 @@
+{
+  "slideWidth": 13.333,
+  "slideHeight": 7.5,
+  "layoutCount": 56,
+  "layouts": [
+    {
+      "index": 0,
+      "name": "Title 1",
+      "category": "title",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 3.092,
+          "y": 2.571,
+          "width": 5.659,
+          "height": 1.694,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 3.089,
+          "y": 4.562,
+          "width": 5.092,
+          "height": 0.844,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Text Placeholder 9",
+          "x": 10.093,
+          "y": 6.107,
+          "width": 2.676,
+          "height": 0.838,
+          "defaultText": "Add Content",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 26",
+          "x": 1.516,
+          "y": 0.0,
+          "width": 3.419,
+          "height": 2.248,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 29",
+          "x": 0.248,
+          "y": 4.125,
+          "width": 3.085,
+          "height": 3.375,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "picture",
+          "name": "Picture Placeholder 31",
+          "x": 7.661,
+          "y": 0.0,
+          "width": 2.609,
+          "height": 3.529,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 16,
+          "type": "picture",
+          "name": "Picture Placeholder 33",
+          "x": 6.06,
+          "y": 5.407,
+          "width": 3.419,
+          "height": 2.093,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 10.748,
+          "y": 0.556,
+          "width": 2.036,
+          "height": 0.72
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "titleTopLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 1,
+      "name": "Title 2",
+      "category": "title",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.759,
+          "y": 2.301,
+          "width": 10.033,
+          "height": 1.452,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.759,
+          "y": 3.958,
+          "width": 7.998,
+          "height": 0.875,
+          "defaultText": "Click to add subtitle style",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Text Placeholder 9",
+          "x": 0.759,
+          "y": 5.051,
+          "width": 5.908,
+          "height": 0.535,
+          "defaultText": "Presenter Name\nDate",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 2.036,
+          "height": 0.72
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 6.342,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 11",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 6.343,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "titleTopLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 2,
+      "name": "Dark Title 2",
+      "category": "title",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.759,
+          "y": 2.301,
+          "width": 10.033,
+          "height": 1.452,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.759,
+          "y": 3.958,
+          "width": 7.998,
+          "height": 0.875,
+          "defaultText": "Click to add subtitle style",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Text Placeholder 9",
+          "x": 0.759,
+          "y": 5.051,
+          "width": 5.908,
+          "height": 0.535,
+          "defaultText": "Presenter Name\nDate",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 2.036,
+          "height": 0.72
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 6.342,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 11",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 6.343,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "titleTopLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 3,
+      "name": "Title 3",
+      "category": "title",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 16",
+          "x": 6.667,
+          "y": 0.0,
+          "width": 6.667,
+          "height": 7.5,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.564,
+          "y": 2.542,
+          "width": 5.5,
+          "height": 1.72,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.564,
+          "y": 4.505,
+          "width": 5.042,
+          "height": 0.87,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Text Placeholder 9",
+          "x": 0.564,
+          "y": 6.259,
+          "width": 2.533,
+          "height": 0.5,
+          "defaultText": "Presenter Name\nDate",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 2.036,
+          "height": 0.72
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "titleTopLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 4,
+      "name": "Title 4",
+      "category": "title",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 16",
+          "x": 6.667,
+          "y": 0.0,
+          "width": 6.667,
+          "height": 7.5,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.564,
+          "y": 2.542,
+          "width": 5.5,
+          "height": 1.72,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.564,
+          "y": 4.505,
+          "width": 5.042,
+          "height": 0.87,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Text Placeholder 9",
+          "x": 0.564,
+          "y": 6.259,
+          "width": 2.533,
+          "height": 0.5,
+          "defaultText": "Presenter Name\nDate",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 2.036,
+          "height": 0.72
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "titleTopLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 5,
+      "name": "Contents Page White",
+      "category": "contents",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 1",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Text Placeholder 3",
+          "x": 1.482,
+          "y": 1.618,
+          "width": 10.373,
+          "height": 4.263,
+          "defaultText": "Click to add contents\nClick to add contents",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Group 3",
+          "type": "group",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 12.221,
+          "height": 5.855
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 6,
+      "name": "Contents Page Extended White",
+      "category": "contents",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 1",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Text Placeholder 3",
+          "x": 1.482,
+          "y": 1.525,
+          "width": 4.849,
+          "height": 4.45,
+          "defaultText": "Click to add contents\nAdd detail here\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 16,
+          "type": "body",
+          "name": "Text Placeholder 3",
+          "x": 7.014,
+          "y": 1.527,
+          "width": 4.849,
+          "height": 4.45,
+          "defaultText": "Click to add contents\nAdd detail here\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.174,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.174,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 7,
+      "name": "Dark Contents Page",
+      "category": "contents",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Text Placeholder 3",
+          "x": 1.482,
+          "y": 1.618,
+          "width": 10.373,
+          "height": 4.263,
+          "defaultText": "Click to add contents\nClick to add contents",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.174,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.174,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Graphic 2",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 8,
+      "name": "Dark Contents Page Extended",
+      "category": "contents",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Text Placeholder 3",
+          "x": 1.482,
+          "y": 1.525,
+          "width": 4.849,
+          "height": 4.45,
+          "defaultText": "Click to add contents\nAdd detail here\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 16,
+          "type": "body",
+          "name": "Text Placeholder 3",
+          "x": 7.014,
+          "y": 1.525,
+          "width": 4.849,
+          "height": 4.45,
+          "defaultText": "Click to add contents\nAdd detail here\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.174,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.174,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Graphic 3",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 9,
+      "name": "Divider Black",
+      "category": "divider",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.759,
+          "y": 2.348,
+          "width": 10.033,
+          "height": 1.272,
+          "defaultText": "Click to add title style\u000bClick to add title style",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.759,
+          "y": 3.881,
+          "width": 8.0,
+          "height": 0.533,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Graphic 3",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 10,
+      "name": "Divider White",
+      "category": "divider",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.759,
+          "y": 2.348,
+          "width": 10.033,
+          "height": 1.272,
+          "defaultText": "Click to add title style\u000bClick to add title style",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.759,
+          "y": 3.881,
+          "width": 8.0,
+          "height": 0.533,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 11,
+      "name": "Divider Light Colour",
+      "category": "divider",
+      "background": "#1F00FF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.759,
+          "y": 2.348,
+          "width": 10.033,
+          "height": 1.272,
+          "defaultText": "Click to add title style\u000bClick to add title style",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.759,
+          "y": 3.881,
+          "width": 8.0,
+          "height": 0.533,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 12,
+      "name": "Divider Colour",
+      "category": "divider",
+      "background": "#1F00FF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.759,
+          "y": 2.348,
+          "width": 10.033,
+          "height": 1.272,
+          "defaultText": "Click to add title style\u000bClick to add title style",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 0.759,
+          "y": 3.881,
+          "width": 8.0,
+          "height": 0.533,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 12.165,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 5.808,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.556,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Graphic 9",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.4,
+          "height": 0.209
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 13,
+      "name": "Statement 1",
+      "category": "statement",
+      "background": "#9AB5B9",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 1.573,
+          "y": 2.057,
+          "width": 9.219,
+          "height": 2.014,
+          "defaultText": "Click to text",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 1.573,
+          "y": 5.081,
+          "width": 4.049,
+          "height": 0.533,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        },
+        {
+          "idx": 4,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 5",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "object 3",
+          "type": "freeform",
+          "x": 3.278,
+          "y": 0.0,
+          "width": 3.749,
+          "height": 5.025
+        },
+        {
+          "name": "object 4",
+          "type": "freeform",
+          "x": 7.029,
+          "y": 5.025,
+          "width": 3.749,
+          "height": 2.475
+        },
+        {
+          "name": "Graphic 6",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 14,
+      "name": "Dark Statement 1",
+      "category": "statement",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 4.628,
+          "y": 2.054,
+          "width": 7.393,
+          "height": 2.014,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "subtitle",
+          "name": "Subtitle 2",
+          "x": 4.628,
+          "y": 4.277,
+          "width": 2.815,
+          "height": 0.533,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "object 3",
+          "type": "freeform",
+          "x": 0.617,
+          "y": 0.0,
+          "width": 3.749,
+          "height": 5.025
+        },
+        {
+          "name": "object 4",
+          "type": "freeform",
+          "x": 4.369,
+          "y": 5.08,
+          "width": 3.749,
+          "height": 2.475
+        },
+        {
+          "name": "Graphic 1",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 15,
+      "name": "Slide Content",
+      "category": "content",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 12.204,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 1.047,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 16,
+      "name": "Slide Content Dark",
+      "category": "content",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 7",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.565,
+          "y": 0.556,
+          "width": 12.204,
+          "height": 1.054,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 12.204,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 2",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 17,
+      "name": "2 Column Content",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.565,
+          "width": 12.204,
+          "height": 1.044,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 1.875,
+          "width": 5.676,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 18,
+      "name": "2 Column Content- With 2 headings",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 1.875,
+          "width": 5.676,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 19,
+      "name": "2 Column Content(For less content)",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 12.204,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.094,
+          "y": 2.678,
+          "width": 5.675,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 20,
+      "name": "2 Column Content(For less content) With 2 headings",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.094,
+          "y": 2.678,
+          "width": 5.675,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.564,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 21,
+      "name": "Two Column Pattern",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 1.875,
+          "width": 5.676,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 10",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 22,
+      "name": "Two Column Pattern - With 2 headings",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 1.875,
+          "width": 5.676,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 10",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 23,
+      "name": "Two Column Pattern(For less content)",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 12.204,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 2.678,
+          "width": 5.676,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 10",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 24,
+      "name": "Two Column Pattern(For less content) With 2 headings",
+      "category": "twoColumn",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 2.678,
+          "width": 5.676,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.564,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 10",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 25,
+      "name": "Narrow Left Copy & Wide Copy/Table Right",
+      "category": "asymmetric",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.872,
+          "width": 4.06,
+          "height": 4.878,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 4.872,
+          "y": 1.87,
+          "width": 7.897,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 1.047,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 26,
+      "name": "Narrow Left Copy & Wide Copy/Table Right 1",
+      "category": "asymmetric",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.566,
+          "y": 1.875,
+          "width": 4.059,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 4.873,
+          "y": 1.875,
+          "width": 7.896,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.565,
+          "width": 12.204,
+          "height": 1.044,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 4",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 27,
+      "name": "Narrow Left Copy & Wide Copy/Table Right 2",
+      "category": "asymmetric",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 4.873,
+          "y": 0.786,
+          "width": 7.892,
+          "height": 0.572,
+          "defaultText": "Click to add subtitle",
+          "fontSize": null
+        },
+        {
+          "idx": 17,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 5.172,
+          "y": 1.609,
+          "width": 7.261,
+          "height": 5.011,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 4.06,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.565,
+          "width": 4.056,
+          "height": 1.044,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Rectangle 4",
+          "type": "auto",
+          "x": 4.864,
+          "y": 0.556,
+          "width": 7.905,
+          "height": 6.194
+        },
+        {
+          "name": "Straight Connector 5",
+          "type": "linked",
+          "x": 4.854,
+          "y": 0.808,
+          "width": 7.906,
+          "height": 0.0
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 28,
+      "name": "Title Content Bold (NEW)",
+      "category": "boldTitle",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 12.204,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 29,
+      "name": "Dark Title Content Bold (NEW)",
+      "category": "boldTitle",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 12.204,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 6",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 30,
+      "name": "Title Content Bold (For less Content)",
+      "category": "boldTitle",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 12.204,
+          "height": 3.733,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.564,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 31,
+      "name": "Title Content Bold (NEW) Pattern",
+      "category": "boldTitle",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 12.204,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 1",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 32,
+      "name": "Two Line Title Content Bold (For less Content)",
+      "category": "boldTitle",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.564,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 12.204,
+          "height": 3.733,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 2",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 33,
+      "name": "Copy + Image",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 22",
+          "x": 6.667,
+          "y": 0.0,
+          "width": 6.667,
+          "height": 7.5,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 4",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 34,
+      "name": "Copy + Image (For less Content)",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 22",
+          "x": 6.667,
+          "y": 0.0,
+          "width": 6.667,
+          "height": 7.5,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 4",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 35,
+      "name": "Left Image + Copy",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 22",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 6.667,
+          "height": 7.5,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 4",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 1.875,
+          "width": 5.676,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 7.092,
+          "y": 0.562,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 36,
+      "name": "Left Image + Copy (For less Content)",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 22",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 6.667,
+          "height": 7.5,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 4",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 7.093,
+          "y": 2.684,
+          "width": 5.676,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 7.093,
+          "y": 1.012,
+          "width": 5.676,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 37,
+      "name": "Copy + Image Frame",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 4",
+          "x": 7.31,
+          "y": 1.193,
+          "width": 4.83,
+          "height": 5.112,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Group 21",
+          "type": "group",
+          "x": 6.671,
+          "y": 0.555,
+          "width": 6.106,
+          "height": 6.39
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 38,
+      "name": "Copy + Image Frame (For less Content)",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 4",
+          "x": 7.31,
+          "y": 1.193,
+          "width": 4.83,
+          "height": 5.112,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Group 21",
+          "type": "group",
+          "x": 6.671,
+          "y": 0.555,
+          "width": 6.106,
+          "height": 6.39
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 39,
+      "name": "Copy + 2 Image Frame",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 4",
+          "x": 7.31,
+          "y": 1.193,
+          "width": 4.052,
+          "height": 2.702,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 4",
+          "x": 8.146,
+          "y": 3.616,
+          "width": 3.997,
+          "height": 2.689,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Group 21",
+          "type": "group",
+          "x": 6.671,
+          "y": 0.555,
+          "width": 6.106,
+          "height": 6.39
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 40,
+      "name": "Copy + 2 Image Frame (For less Content)",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 4",
+          "x": 7.31,
+          "y": 1.193,
+          "width": 4.052,
+          "height": 2.702,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 4",
+          "x": 8.146,
+          "y": 3.616,
+          "width": 3.997,
+          "height": 2.689,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Group 21",
+          "type": "group",
+          "x": 6.671,
+          "y": 0.555,
+          "width": 6.106,
+          "height": 6.39
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 41,
+      "name": "Copy + Multiple Image Frames",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 24",
+          "x": 2.528,
+          "y": 4.141,
+          "width": 3.427,
+          "height": 3.359,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 27",
+          "x": 5.955,
+          "y": 3.338,
+          "width": 3.386,
+          "height": 3.386,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 30",
+          "x": 9.35,
+          "y": 0.0,
+          "width": 3.427,
+          "height": 3.347,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 15,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 9.447,
+          "y": 3.757,
+          "width": 3.322,
+          "height": 2.75,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.556,
+          "y": 1.62,
+          "width": 5.694,
+          "height": 0.833,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 42,
+      "name": "Dark Copy + Multiple Image Frames",
+      "category": "copyImage",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 16,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 9.447,
+          "y": 3.757,
+          "width": 3.322,
+          "height": 2.75,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "picture",
+          "name": "Picture Placeholder 24",
+          "x": 2.528,
+          "y": 4.141,
+          "width": 3.427,
+          "height": 3.359,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 27",
+          "x": 5.955,
+          "y": 3.338,
+          "width": 3.386,
+          "height": 3.386,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 30",
+          "x": 9.35,
+          "y": 0.0,
+          "width": 3.427,
+          "height": 3.347,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.556,
+          "y": 1.62,
+          "width": 5.694,
+          "height": 0.833,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 3",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 43,
+      "name": "Copy + 2  Image Frames",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 15",
+          "x": 7.686,
+          "y": 3.76,
+          "width": 3.75,
+          "height": 3.74,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 14",
+          "x": 8.619,
+          "y": 0.0,
+          "width": 3.75,
+          "height": 3.76,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 44,
+      "name": "Copy + 2  Image Frames (For less content)",
+      "category": "copyImage",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 15",
+          "x": 7.686,
+          "y": 3.76,
+          "width": 3.75,
+          "height": 3.74,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 14",
+          "x": 8.619,
+          "y": 0.0,
+          "width": 3.75,
+          "height": 3.76,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 45,
+      "name": "Dark Copy + 2  Image Frames",
+      "category": "copyImage",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 15",
+          "x": 7.686,
+          "y": 3.76,
+          "width": 3.75,
+          "height": 3.74,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 14",
+          "x": 8.619,
+          "y": 0.0,
+          "width": 3.75,
+          "height": 3.76,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.875,
+          "width": 5.685,
+          "height": 4.875,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 4",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 46,
+      "name": "Dark Copy + 2  Image Frames (For less Content)",
+      "category": "copyImage",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "picture",
+          "name": "Picture Placeholder 15",
+          "x": 7.686,
+          "y": 3.76,
+          "width": 3.75,
+          "height": 3.74,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 14,
+          "type": "picture",
+          "name": "Picture Placeholder 14",
+          "x": 8.619,
+          "y": 0.0,
+          "width": 3.75,
+          "height": 3.76,
+          "defaultText": "Click icon to add picture",
+          "fontSize": null
+        },
+        {
+          "idx": 1,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 2.684,
+          "width": 5.685,
+          "height": 3.727,
+          "defaultText": "Click to add text\nSecond level\nThird level\nFourth level\nFifth level",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 1.012,
+          "width": 5.685,
+          "height": 1.047,
+          "defaultText": "Click to add title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 3",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 47,
+      "name": "Title Only (NEW)",
+      "category": "titleOnly",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 48,
+      "name": "Black Title Only",
+      "category": "titleOnly",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 6",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 8",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 49,
+      "name": "Title With Pattern (NEW)",
+      "category": "titleOnly",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 9",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 2",
+          "x": 0.565,
+          "y": 0.562,
+          "width": 12.204,
+          "height": 0.534,
+          "defaultText": "Click to add title (Font size 30)",
+          "fontSize": null
+        },
+        {
+          "idx": 12,
+          "type": "body",
+          "name": "Content Placeholder 2",
+          "x": 0.565,
+          "y": 1.114,
+          "width": 12.204,
+          "height": 0.495,
+          "defaultText": "Click to add Sub-title",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 1",
+          "type": "freeform",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 13.333,
+          "height": 7.5
+        }
+      ],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 50,
+      "name": "Blank",
+      "category": "blank",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 5",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        }
+      ],
+      "shapes": [],
+      "hasLogo": false,
+      "logoPosition": null,
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 51,
+      "name": "Colour Blank",
+      "category": "blank",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 11,
+          "type": "slideNumber",
+          "name": "Slide Number Placeholder 5",
+          "x": 12.351,
+          "y": 7.063,
+          "width": 0.417,
+          "height": 0.148,
+          "defaultText": "\u2039#\u203a",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 2",
+          "type": "logo",
+          "x": 0.556,
+          "y": 7.021,
+          "width": 1.387,
+          "height": 0.207
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": true,
+      "hasCornerDecorations": false
+    },
+    {
+      "index": 52,
+      "name": "Close 1",
+      "category": "close",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Text Placeholder 4",
+          "x": 0.75,
+          "y": 4.253,
+          "width": 5.916,
+          "height": 0.533,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        },
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.768,
+          "y": 2.684,
+          "width": 5.9,
+          "height": 0.967,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 26",
+          "type": "freeform",
+          "x": 0.559,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.564,
+          "y": 6.225,
+          "width": 2.036,
+          "height": 0.72
+        },
+        {
+          "name": "Freeform: Shape 1",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 6.339,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 2",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 53,
+      "name": "Close 2",
+      "category": "close",
+      "background": "#FFFFFF",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.768,
+          "y": 1.089,
+          "width": 5.9,
+          "height": 5.028,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Freeform: Shape 23",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 6.339,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 24",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 18",
+          "type": "freeform",
+          "x": 0.559,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.564,
+          "y": 6.225,
+          "width": 2.036,
+          "height": 0.72
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 54,
+      "name": "Dark Close 1",
+      "category": "close",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.768,
+          "y": 2.684,
+          "width": 5.9,
+          "height": 0.967,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        },
+        {
+          "idx": 13,
+          "type": "body",
+          "name": "Text Placeholder 4",
+          "x": 0.75,
+          "y": 4.253,
+          "width": 5.916,
+          "height": 0.533,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.564,
+          "y": 6.225,
+          "width": 2.036,
+          "height": 0.72
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.559,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 1",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 6.339,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 4",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": true
+    },
+    {
+      "index": 55,
+      "name": "Dark Close 2",
+      "category": "close",
+      "background": "#000000",
+      "placeholders": [
+        {
+          "idx": 0,
+          "type": "title",
+          "name": "Title 1",
+          "x": 0.768,
+          "y": 1.089,
+          "width": 5.9,
+          "height": 5.028,
+          "defaultText": "Click to add text",
+          "fontSize": null
+        }
+      ],
+      "shapes": [
+        {
+          "name": "Graphic 11",
+          "type": "logo",
+          "x": 0.564,
+          "y": 6.225,
+          "width": 2.036,
+          "height": 0.72
+        },
+        {
+          "name": "Freeform: Shape 25",
+          "type": "freeform",
+          "x": 0.559,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 1",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 6.339,
+          "width": 0.602,
+          "height": 0.602
+        },
+        {
+          "name": "Freeform: Shape 2",
+          "type": "freeform",
+          "x": 7.072,
+          "y": 0.556,
+          "width": 0.602,
+          "height": 0.602
+        }
+      ],
+      "hasLogo": true,
+      "logoPosition": "closeBottomLeft",
+      "hasSlideNumber": false,
+      "hasCornerDecorations": true
+    }
+  ]
+}

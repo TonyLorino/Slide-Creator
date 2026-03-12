@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/generate-pptx/index.py": {
+      "runtime": "@vercel/python@4.0.0",
+      "maxDuration": 60
+    }
+  }
+}
